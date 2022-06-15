@@ -1,0 +1,222 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #e7f6ff;
+}
+
+.wrapper {
+  max-width: 1080px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 20px;
+  margin: 50px auto;
+  //padding: 45px;
+  padding: 0px 0px 45px 0px;
+}
+
+// <HEADER>==========================================================================
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px;
+  border-bottom: 1px solid #EAEAEA;
+
+  // .header__column
+
+  &__column {
+    display: flex;
+    align-items: center;
+  }
+
+  // .header__logo
+
+  &__logo {
+    width: 40px;
+    height: 40px;
+    margin: 0px 16px 0px 0px;
+  }
+
+  // .header__text
+
+  &__text {}
+
+  // .header__cart
+
+  &__cart {
+    margin: 0px 30px 0px 0px;
+  }
+
+  // .header__like
+
+  &__like {
+    margin: 0px 30px 0px 0px;
+    text-align: center;
+    width: 21px;
+    height: 19px;
+  }
+
+  // .header__user
+
+  &__user {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.text-header {
+
+  // .text-header__title
+
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  // .text-header__subtitle
+
+  &__subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9D9D9D;
+  }
+}
+
+.cart-header {
+  display: flex;
+  align-items: center;
+
+  // .cart-header__logo
+
+  &__logo {
+    margin: 0px 10px 0px 0px;
+    width: 18px;
+    height: 18px;
+  }
+
+  // .cart-header__cost
+
+  &__cost {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5C5C5C;
+  }
+}
+
+// <HEADER>==========================================================================
+
+// <CONTENT>==========================================================================
+
+.content {
+  margin: 40px 0px 0px 0px;
+  padding: 0px 45px 0px 45px;
+
+  // .content__title
+
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    margin: 0;
+    margin: 0px 0px 30px 0px;
+  }
+}
+
+// <CONTENT>==========================================================================
+
+// <CARD>==========================================================================
+.sneakers{
+  display: flex;
+}
+.card {
+  padding: 30px;
+  width: 210px;
+  background: #FFFFFF;
+  border: 1px solid #F3F3F3;
+  border-radius: 40px;
+  margin: 0px 40px 0px 0px;
+
+  &__img {
+    object-fit: cover;
+    width: 100%;
+    margin: 0px 0px 14px 0px;
+  }
+
+  // .card__like
+
+  &__like {
+    width: 32px;
+    height: 32px;
+  }
+
+  // .card__title
+
+  &__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin: 0px 0px 14px 0px;
+  }
+
+  // .card__row
+
+  &__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  // .card__price
+
+  &__price {}
+
+  // .card__plus
+
+  &__plus {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.price-card {
+
+  // .price-card__title
+
+  &__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+  }
+
+  // .price-card__cost
+
+  &__cost {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+  }
+}
+
+// <CARD>==========================================================================
